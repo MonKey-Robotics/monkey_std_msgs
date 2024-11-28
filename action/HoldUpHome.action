@@ -1,0 +1,8 @@
+# Task IDs
+uint16 HOME=0
+uint16 HOLDUP=1
+
+uint16 task
+---
+bool success
+---

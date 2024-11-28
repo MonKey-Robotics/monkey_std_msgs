@@ -1,0 +1,8 @@
+uint16 AIM=0
+uint16 CUT=1
+
+uint16 task
+geometry_msgs/PoseStamped pose
+---
+bool success
+string message
