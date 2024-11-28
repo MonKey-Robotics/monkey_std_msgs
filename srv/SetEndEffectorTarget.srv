@@ -1,0 +1,4 @@
+geometry_msgs/Point target # target XYZ coordinate point
+---
+bool success
+string message # informational, e.g. for error messages

@@ -1,0 +1,11 @@
+# Task IDs
+uint16 HOME=0
+uint16 TREE_1=1
+uint16 TREE_2=2
+uint16 TREE_3=3
+uint16 TREE_4=4
+
+uint16 task # task
+---
+bool success
+string message # informational, e.g. for error messages

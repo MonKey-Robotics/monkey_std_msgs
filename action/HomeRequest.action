@@ -1,0 +1,4 @@
+---
+bool homing_status # End status of the homing operation
+---
+float64 current_position # Feedback

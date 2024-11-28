@@ -1,0 +1,7 @@
+geometry_msgs/Point target # target XYZ coordinate point
+---
+bool success
+string message # informational, e.g. for error messages
+float64 b0_target # bearing target position (rad)
+float64 b1_target # boom 1 target position (m)
+float64 b2_target # boom 2 target position (m)
