@@ -41,7 +41,7 @@ monkey_std_msgs/
 ├── srv/
 │   └── MyCustomService.srv
 ├── msg/
-│   └── MyCustomAction.msg
+│   └── MyCustomMessage.msg
 └── package.xml
 ```
 
