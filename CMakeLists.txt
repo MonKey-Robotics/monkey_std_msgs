@@ -25,11 +25,17 @@ function(find_rosidl_interfaces TARGET_VAR DIRECTORY)
     list(APPEND INTERFACE_FILES ${ACTION_FILE})
   endforeach()
 
+  # Search for .msg files
+  file(GLOB_RECURSE MSG_FILES RELATIVE ${DIRECTORY} "${DIRECTORY}/msg/*.msg")
+  foreach(MSG_FILE ${MSG_FILES})
+    list(APPEND INTERFACE_FILES ${MSG_FILE})
+  endforeach()
+
   # Output the results to the target variable
   set(${TARGET_VAR} ${INTERFACE_FILES} PARENT_SCOPE)
 endfunction()
 
-# Use the function to find .srv and .action files in the current source directory
+# Use the function to find .srv, .action and .msg files in the current source directory
 find_rosidl_interfaces(INTERFACE_FILES ${CMAKE_CURRENT_SOURCE_DIR})
 
 # Debug: Output the found interface files (optional)
