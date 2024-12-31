@@ -1,6 +1,8 @@
 # monkey_std_msgs
 
-**monkey_std_msgs** is a ROS2 package that provides standard custom messages, including actions and services, used by Monkey Robotics. This package is designed to be easily extendable, so you can add new custom messages that may be useful in other projects.
+**monkey_std_msgs** is an example ROS2 package that provides standard custom messages, including actions and services, used by Monkey Robotics. This package is designed to be easily extendable, so you can add new custom messages that may be useful in other projects.
+
+**The main feature of this package lies within the `CMakeLists.txt` file.**
 
 ---
 
